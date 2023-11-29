@@ -12,11 +12,14 @@ Example of scene transition:
 ![Scene_Example](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/687d9e02-2e82-451e-a7b3-bc62ad20964c)
 
 
-
 ## Flappy Bird Player Movement 
 Movement is kept very simple and is singularly controlled by the spacebar. A RigidBody2D was applied to the player object and movement was scripted in utilizing a simple velocity equation. In order to keep Flappy Bird 2.0 as authentic to the original game as possible, in-game gravity was tweaked until the correct feel for player movement was achieved. 
 
 Example of player movement:
+
+
+![Player_Movement](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/17b7d599-2ed8-4dbb-8e41-cb2ba0792d07)
+
 
 ## Flappy Bird Spawning
 Flappy Bird is an illusion in that players percieve the bird to be flying through the air. In reality, the bird stays in a singular location and pipes move towards it at a set speed to give the illusion of flight. This made it necessary to create a pipe spawner in which pipes would spawn into the game field, move across it, and subsequently delete themselves when they left it. This was achieved through creating a pipe object Prefab and scripting behaviors so these pipe Prefabs would repeatedly spawn at a set time just outside of the game field and then move across the screen at a set speed. This same process was utilized to spawn in the point booster diamonds you see in-game.  
