@@ -22,9 +22,9 @@ Example of player movement:
 
 
 ## Flappy Bird Spawning
-Flappy Bird tricks players into thinking the bird is flying through the air. In reality, the bird stays in a singular location with pipes moving towards it, thus giving the illusion of flight. Therefore, when creating my version of Flappy Bird, it was necessary to create a pipe spawner in which pipes would spawn into the game field, move across it, and subsequently delete themselves when they left it. This was achieved through creating a pipe object prefab and scripting behaviors so these pipe prefabs would repeatedly spawn at a set time just outside of the game field and then move across the screen at a set speed. This same process was utilized to spawn in the point booster diamonds you see in-game.  
+Flappy Bird tricks players into thinking the bird is flying through the air. In reality, the bird stays in a singular location with objects moving towards it, thus giving the illusion of flight. Therefore, when creating my version of Flappy Bird, it was necessary to create a spawning system which would spawn objects into the game field, move them across it, and subsequently delete them when they left it. For the pipes and point boosting diamonds this was achieved through creating object prefabs and scripting behaviors so these prefabs would repeatedly spawn at a set time just outside of the game field and then move across the screen at a set speed. The clouds you see in the background spawn through the use of a particle system prefab. This prefab can also been seen in use on the main menu screen.  
 
-Example of pipes and diamonds spawning:
+Example of pipes, diamonds, and clouds spawning:
 
 
 ![Spawn_Example](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/82df201d-be94-4a1c-863b-4b6e4999277b)
