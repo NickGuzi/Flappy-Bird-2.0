@@ -13,7 +13,7 @@ Example of scene transition:
 
 
 ## Flappy Bird Player Movement 
-Movement is kept very simple and is singularly controlled by the spacebar. A RigidBody2D was applied to the player object and movement was scripted in utilizing a simple velocity equation. In order to keep Flappy Bird 2.0 as authentic to the original game as possible, in-game gravity was tweaked until the correct feel for player movement was achieved. 
+Movement is kept very simple and is singularly controlled by the spacebar. A RigidBody2D was applied to the player object and movement was scripted utilizing a simple velocity equation. In order to keep Flappy Bird 2.0 as authentic to the original game as possible, in-game gravity was tweaked until the correct feel for player movement was achieved. 
 
 Example of player movement:
 
