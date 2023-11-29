@@ -22,9 +22,13 @@ Example of player movement:
 
 
 ## Flappy Bird Spawning
-Flappy Bird is an illusion in that players percieve the bird to be flying through the air. In reality, the bird stays in a singular location and pipes move towards it at a set speed to give the illusion of flight. This made it necessary to create a pipe spawner in which pipes would spawn into the game field, move across it, and subsequently delete themselves when they left it. This was achieved through creating a pipe object Prefab and scripting behaviors so these pipe Prefabs would repeatedly spawn at a set time just outside of the game field and then move across the screen at a set speed. This same process was utilized to spawn in the point booster diamonds you see in-game.  
+Flappy Bird tricks players into thinking the bird is flying through the air. In reality, the bird stays in a singular location with pipes moving towards it, thus giving the illusion of flight. Therefore, when creating my version of Flappy Bird, it was necessary to create a pipe spawner in which pipes would spawn into the game field, move across it, and subsequently delete themselves when they left it. This was achieved through creating a pipe object prefab and scripting behaviors so these pipe prefabs would repeatedly spawn at a set time just outside of the game field and then move across the screen at a set speed. This same process was utilized to spawn in the point booster diamonds you see in-game.  
 
-Examples of spawning:
+Example of pipes and diamonds spawning:
+
+
+![Spawn_Example](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/82df201d-be94-4a1c-863b-4b6e4999277b)
+
 
 ## Flappy Bird UI
 UI is featured in the opening menu scene, gameplay score, and game over screen. Gameplay score and the game over screen are controlled by functions present within the LogicScript. The game over screen is triggered whenever a player impacts a pipe or goes too far off screen. The function addScore features a singular parameter which tracks incrementation value. Therefore, it is able to increment score upon passing through a set of pipes (+1 to score) as well as when a player collects a diamond (+5 to score). 
