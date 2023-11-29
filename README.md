@@ -8,6 +8,10 @@ Scene management within this project is controlled by a SceneLoader Prefab that 
 
 Example of scene transition: 
 
+
+https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/a91be4a9-de4c-4008-9346-887a36a73988
+
+
 ## Flappy Bird Player Movement 
 Movement is kept very simple and is singularly controlled by the spacebar. A RigidBody2D was applied to the player object and movement was scripted in utilizing a simple velocity equation. In order to keep Flappy Bird 2.0 as authentic to the original game as possible, in-game gravity was tweaked until the correct feel for player movement was achieved. 
 
