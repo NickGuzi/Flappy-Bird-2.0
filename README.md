@@ -9,7 +9,8 @@ Scene management within this project is controlled by a SceneLoader Prefab that 
 Example of scene transition: 
 
 
-https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/a91be4a9-de4c-4008-9346-887a36a73988
+![Scene_Example](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/687d9e02-2e82-451e-a7b3-bc62ad20964c)
+
 
 
 ## Flappy Bird Player Movement 
