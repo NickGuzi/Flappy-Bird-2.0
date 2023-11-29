@@ -18,4 +18,8 @@ Flappy Bird is an illusion in that players percieve the bird to be flying throug
 
 Examples of spawning:
 
+## Flappy Bird UI
+UI is featured in the opening menu scene, gameplay score, and game over screen. Gameplay score and the game over screen are controlled by functions present within the LogicScript. The game over screen is triggered whenever a player impacts a pipe or goes too far off screen. The function addScore features a singular parameter which tracks incrementation value. Therefore, it is able to increment score upon passing through a set of pipes (+1 to score) as well as when a player collects a diamond (+5 to score). 
+
+Examples of UI:
 
