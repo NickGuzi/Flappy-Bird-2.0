@@ -21,6 +21,13 @@ Example of player movement:
 ![Player_Movement](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/17b7d599-2ed8-4dbb-8e41-cb2ba0792d07)
 
 
+Velocity Script:
+
+
+![PlayerVelocity](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/71537a38-8bc6-4eff-8e3f-292ce9dd6ea1)
+
+
+
 ## Flappy Bird Spawning
 Flappy Bird tricks players into thinking the bird is flying through the air. In reality, the bird stays in a singular location with objects moving towards it, thus giving the illusion of flight. Therefore, when creating my version of Flappy Bird, it was necessary to create a spawning system which would spawn objects into the game field, move them across it, and subsequently delete them when they left it. For the pipes and point boosting diamonds this was achieved through creating object prefabs and scripting behaviors so these prefabs would repeatedly spawn at a set time just outside of the game field and then move across the screen at a set speed. The clouds you see in the background spawn through the use of a particle system prefab. This prefab can also been seen in use on the main menu screen.  
 
@@ -28,6 +35,18 @@ Example of pipes, diamonds, and clouds spawning:
 
 
 ![Spawn_Example](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/82df201d-be94-4a1c-863b-4b6e4999277b)
+
+
+Script that spawns pipes (diamond script is virtually the same):
+
+
+![PipeSpawn](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/b92a5eff-b329-471e-acce-8940c978b581)
+
+
+Script that moves pipes across screen and then deletes them (diamond script is virtually the same): 
+
+
+![PipeMove](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/34f7b7f8-c276-400d-8be1-52b36b6513db)
 
 
 ## Flappy Bird UI
