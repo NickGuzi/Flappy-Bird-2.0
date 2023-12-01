@@ -31,7 +31,22 @@ Example of pipes, diamonds, and clouds spawning:
 
 
 ## Flappy Bird UI
-UI is featured in the opening menu scene, gameplay score, and game over screen. Gameplay score and the game over screen are controlled by functions present within the LogicScript. The game over screen is triggered whenever a player impacts a pipe or goes too far off screen. The function addScore features a singular parameter which tracks incrementation value. Therefore, it is able to increment score upon passing through a set of pipes (+1 to score) as well as when a player collects a diamond (+5 to score). 
+UI is featured in the opening menu scene, gameplay score, and game over screen. Gameplay score and the game over screen are controlled by functions present within the LogicScript. The game over screen is triggered whenever a player impacts a pipe or goes too far off screen. The function addScore() features a singular parameter which tracks incrementation value. Therefore, it is able to increment score upon passing through a set of pipes (+1 to score) as well as when a player collects a diamond (+5 to score). 
 
-Examples of UI:
+LogicScript:
 
+
+![LogicScript](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/eb6b85fc-5959-46cc-931e-e468e7496771)
+
+
+BirdScript making use of LogicScript functions:
+
+
+![BirdScript](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/187f736f-84da-482d-b482-06046ea7f3de)
+
+
+addScore() function in use:
+
+
+![PipeTrigger](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/5d3b56d1-fd87-4e7a-83f8-c5814134554c)
+![DiamondTrigger](https://github.com/NickGuzi/Flappy-Bird-2.0/assets/140576874/4ca9fe90-b1f9-4587-8aab-3bbd0c2524bd)
