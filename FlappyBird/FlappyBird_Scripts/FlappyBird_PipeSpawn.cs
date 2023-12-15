@@ -1,0 +1,41 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FlappyBird_PipeSpawn : MonoBehaviour
+{
+    //Variables & References
+    public GameObject pipe;
+    public float pipeSpawnRate; //how often pipe prefab spawns on screen
+    private float timer = 0; //time placeholder
+    public float heightOffset = 10;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        spawnPipe();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(timer < pipeSpawnRate)
+        {
+            timer += Time.deltaTime;
+        }
+        else
+        {
+            spawnPipe();
+            timer = 0;
+        }
+
+    }
+
+    void spawnPipe() // function to spawn pipes at random points 
+    {
+        float lowestPoint = transform.position.y - heightOffset;
+        float highestPoint = transform.position.y + heightOffset;
+
+        Instantiate(pipe, new Vector3(transform.position.x, Random.Range(lowestPoint, highestPoint), 0 ), transform.rotation); //Called using Unity object spawn function
+    }
+}
